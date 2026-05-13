@@ -52,7 +52,7 @@ export default function RegisterPage() {
         <CardHeader className="text-center">
           <div className="text-4xl mb-2">💸</div>
           <CardTitle className="text-2xl">Create Account</CardTitle>
-          <CardDescription>Join SplitMate and split expenses with a friend</CardDescription>
+          <CardDescription>Join Owey and split expenses with a friend</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">

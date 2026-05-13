@@ -94,7 +94,7 @@ export default function InviteCodePage() {
         <CardHeader className="text-center">
           <div className="text-4xl mb-2">🤝</div>
           <CardTitle>You&apos;re Invited!</CardTitle>
-          <CardDescription>Join &quot;{householdName}&quot; on SplitMate</CardDescription>
+          <CardDescription>Join &quot;{householdName}&quot; on Owey</CardDescription>
         </CardHeader>
         <CardContent className="space-y-3">
           <Button onClick={handleJoin} className="w-full" disabled={joining}>

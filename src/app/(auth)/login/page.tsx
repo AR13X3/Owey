@@ -73,7 +73,7 @@ export default function LoginPage() {
       <Card className="w-full max-w-sm">
         <CardHeader className="text-center">
           <div className="text-4xl mb-2">💸</div>
-          <CardTitle className="text-2xl">SplitMate</CardTitle>
+          <CardTitle className="text-2xl">Owey</CardTitle>
           <CardDescription>Sign in to your account</CardDescription>
         </CardHeader>
         <CardContent>

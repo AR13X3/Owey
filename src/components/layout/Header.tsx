@@ -19,7 +19,7 @@ export function Header() {
   const router = useRouter()
   const { currentUser, household } = useHousehold()
 
-  const title = Object.entries(titles).find(([k]) => pathname.startsWith(k))?.[1] ?? 'SplitMate'
+  const title = Object.entries(titles).find(([k]) => pathname.startsWith(k))?.[1] ?? 'Owey'
   const isProfile = pathname.startsWith('/profile')
 
   return (
